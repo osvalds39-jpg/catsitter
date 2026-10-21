@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 570" role="img" aria-labelledby="mapa-title mapa-desc">
+  <title id="mapa-title">Esquema das principais linhas de metrô atendidas</title>
+  <desc id="mapa-desc">Diagrama esquemático com as linhas 1, 2, 3, 4 e 5 do metrô de São Paulo e as estações onde o serviço é priorizado.</desc>
+
+  <rect width="820" height="570" rx="24" fill="#FFFFFF"/>
+
+  <g font-family="Poppins, system-ui, sans-serif">
+    <text x="40" y="46" font-size="19" font-weight="700" fill="#252525">Linhas de metrô com atendimento priorizado</text>
+    <text x="40" y="68" font-size="13" fill="#6B6B6B">Esquema ilustrativo das linhas e estações — não representa a geografia exata.</text>
+
+    <!-- Linhas -->
+    <g stroke-linecap="round" fill="none" stroke-width="7">
+      <path d="M70 110 H760" stroke="#1F6FEB"/>
+      <path d="M70 200 H760" stroke="#F0B429"/>
+      <path d="M70 290 H760" stroke="#8E5BBE"/>
+      <path d="M70 380 H760" stroke="#D5303C"/>
+      <path d="M70 470 H760" stroke="#E2683C"/>
+    </g>
+
+    <!-- Conexões verticais -->
+    <g stroke-linecap="round" fill="none" stroke-width="5">
+      <path d="M150 110 V470" stroke="#1F6FEB"/>
+      <path d="M150 290 V470" stroke="#8E5BBE"/>
+      <path d="M250 110 V200" stroke="#1F6FEB"/>
+      <path d="M350 110 V200" stroke="#1F6FEB"/>
+      <path d="M450 200 V290" stroke="#F0B429"/>
+      <path d="M550 290 V380" stroke="#8E5BBE"/>
+      <path d="M650 290 V470" stroke="#8E5BBE"/>
+      <path d="M650 380 V470" stroke="#D5303C"/>
+      <path d="M750 380 V470" stroke="#D5303C"/>
+    </g>
+
+    <!-- Estações -->
+    <g fill="#FFFFFF" stroke-width="3">
+      <!-- Linha 1 -->
+      <circle cx="70" cy="110" r="7" stroke="#1F6FEB"/>
+      <circle cx="150" cy="110" r="7" stroke="#1F6FEB"/>
+      <circle cx="250" cy="110" r="7" stroke="#1F6FEB"/>
+      <circle cx="350" cy="110" r="7" stroke="#1F6FEB"/>
+      <circle cx="450" cy="110" r="7" stroke="#1F6FEB"/>
+      <circle cx="550" cy="110" r="7" stroke="#1F6FEB"/>
+      <circle cx="650" cy="110" r="7" stroke="#1F6FEB"/>
+      <circle cx="750" cy="110" r="7" stroke="#1F6FEB"/>
+      <!-- Linha 4 -->
+      <circle cx="70" cy="200" r="7" stroke="#F0B429"/>
+      <circle cx="150" cy="200" r="7" stroke="#F0B429"/>
+      <circle cx="250" cy="200" r="7" stroke="#F0B429"/>
+      <circle cx="350" cy="200" r="7" stroke="#F0B429"/>
+      <circle cx="450" cy="200" r="7" stroke="#F0B429"/>
+      <circle cx="550" cy="200" r="7" stroke="#F0B429"/>
+      <circle cx="650" cy="200" r="7" stroke="#F0B429"/>
+      <circle cx="750" cy="200" r="7" stroke="#F0B429"/>
+      <!-- Linha 5 -->
+      <circle cx="70" cy="290" r="7" stroke="#8E5BBE"/>
+      <circle cx="150" cy="290" r="7" stroke="#8E5BBE"/>
+      <circle cx="250" cy="290" r="7" stroke="#8E5BBE"/>
+      <circle cx="350" cy="290" r="7" stroke="#8E5BBE"/>
+      <circle cx="450" cy="290" r="7" stroke="#8E5BBE"/>
+      <circle cx="550" cy="290" r="7" stroke="#8E5BBE"/>
+      <circle cx="650" cy="290" r="7" stroke="#8E5BBE"/>
+      <circle cx="750" cy="290" r="7" stroke="#8E5BBE"/>
+      <!-- Linha 2 -->
+      <circle cx="70" cy="380" r="7" stroke="#D5303C"/>
+      <circle cx="150" cy="380" r="7" stroke="#D5303C"/>
+      <circle cx="250" cy="380" r="7" stroke="#D5303C"/>
+      <circle cx="350" cy="380" r="7" stroke="#D5303C"/>
+      <circle cx="450" cy="380" r="7" stroke="#D5303C"/>
+      <circle cx="550" cy="380" r="7" stroke="#D5303C"/>
+      <circle cx="650" cy="380" r="7" stroke="#D5303C"/>
+      <circle cx="750" cy="380" r="7" stroke="#D5303C"/>
+      <!-- Linha 3 -->
+      <circle cx="70" cy="470" r="7" stroke="#E2683C"/>
+      <circle cx="150" cy="470" r="7" stroke="#E2683C"/>
+      <circle cx="250" cy="470" r="7" stroke="#E2683C"/>
+      <circle cx="350" cy="470" r="7" stroke="#E2683C"/>
+      <circle cx="450" cy="470" r="7" stroke="#E2683C"/>
+      <circle cx="550" cy="470" r="7" stroke="#E2683C"/>
+      <circle cx="650" cy="470" r="7" stroke="#E2683C"/>
+      <circle cx="750" cy="470" r="7" stroke="#E2683C"/>
+    </g>
+
+    <!-- Estações com destaque (intercâmbio) -->
+    <g fill="#00694A">
+      <circle cx="150" cy="110" r="3.4"/>
+      <circle cx="150" cy="290" r="3.4"/>
+      <circle cx="150" cy="470" r="3.4"/>
+      <circle cx="250" cy="110" r="3.4"/>
+      <circle cx="250" cy="200" r="3.4"/>
+      <circle cx="350" cy="110" r="3.4"/>
+      <circle cx="350" cy="200" r="3.4"/>
+      <circle cx="450" cy="200" r="3.4"/>
+      <circle cx="450" cy="290" r="3.4"/>
+      <circle cx="550" cy="290" r="3.4"/>
+      <circle cx="550" cy="380" r="3.4"/>
+      <circle cx="650" cy="290" r="3.4"/>
+      <circle cx="650" cy="380" r="3.4"/>
+      <circle cx="650" cy="470" r="3.4"/>
+      <circle cx="750" cy="380" r="3.4"/>
+      <circle cx="750" cy="470" r="3.4"/>
+    </g>
+
+    <!-- Rótulos -->
+    <g font-size="13.5" fill="#252525">
+      <text x="58" y="94" text-anchor="middle">Jabaquara</text>
+      <text x="150" y="132" text-anchor="middle" font-weight="600">Saúde</text>
+      <text x="250" y="94" text-anchor="middle">Morumbi</text>
+      <text x="350" y="132" text-anchor="middle" font-weight="600">Pinheiros</text>
+      <text x="450" y="94" text-anchor="middle">Ceasa</text>
+      <text x="550" y="94" text-anchor="middle">Armênia</text>
+      <text x="650" y="94" text-anchor="middle">Luz</text>
+      <text x="750" y="94" text-anchor="middle">Tatuapé</text>
+
+      <text x="70" y="186" text-anchor="middle">Luz</text>
+      <text x="150" y="222" text-anchor="middle">República</text>
+      <text x="250" y="186" text-anchor="middle" font-weight="600">Morumbi</text>
+      <text x="350" y="222" text-anchor="middle" font-weight="600">Pinheiros</text>
+      <text x="450" y="186" text-anchor="middle" font-weight="600">Faria Lima</text>
+      <text x="550" y="222" text-anchor="middle">Paulista</text>
+      <text x="650" y="186" text-anchor="middle">Butantã</text>
+      <text x="750" y="222" text-anchor="middle">Vila Sônia</text>
+
+      <text x="70" y="276" text-anchor="middle">Vila Madalena</text>
+      <text x="150" y="312" text-anchor="middle" font-weight="600">Saúde</text>
+      <text x="250" y="276" text-anchor="middle">Fradique</text>
+      <text x="350" y="312" text-anchor="middle">Moema</text>
+      <text x="450" y="276" text-anchor="middle" font-weight="600">Faria Lima</text>
+      <text x="550" y="312" text-anchor="middle" font-weight="600">Paraíso</text>
+      <text x="650" y="276" text-anchor="middle" font-weight="600">Ana Rosa</text>
+      <text x="750" y="312" text-anchor="middle">Vila Mariana</text>
+
+      <text x="70" y="366" text-anchor="middle">Ana Rosa</text>
+      <text x="150" y="402" text-anchor="middle">Paraíso</text>
+      <text x="250" y="366" text-anchor="middle">Vergueiro</text>
+      <text x="350" y="402" text-anchor="middle">Estação</text>
+      <text x="450" y="366" text-anchor="middle">Sé</text>
+      <text x="550" y="402" text-anchor="middle" font-weight="600">Paraíso</text>
+      <text x="650" y="366" text-anchor="middle" font-weight="600">Ana Rosa</text>
+      <text x="750" y="402" text-anchor="middle" font-weight="600">Vila Prudente</text>
+
+      <text x="70" y="456" text-anchor="middle">Saúde</text>
+      <text x="150" y="492" text-anchor="middle" font-weight="600">Saúde</text>
+      <text x="250" y="456" text-anchor="middle">Santa Cecília</text>
+      <text x="350" y="492" text-anchor="middle">República</text>
+      <text x="450" y="456" text-anchor="middle">Sé</text>
+      <text x="550" y="492" text-anchor="middle">Ana Rosa</text>
+      <text x="650" y="456" text-anchor="middle" font-weight="600">Ana Rosa</text>
+      <text x="750" y="492" text-anchor="middle" font-weight="600">Vila Prudente</text>
+    </g>
+
+    <!-- Legenda -->
+    <g font-size="13">
+      <rect x="40" y="512" width="740" height="38" rx="12" fill="#F7F3EC"/>
+      <g>
+        <circle cx="62" cy="531" r="7" fill="#1F6FEB"/>
+        <text x="76" y="536" fill="#252525">Linha 1 — Azul</text>
+        <circle cx="205" cy="531" r="7" fill="#D5303C"/>
+        <text x="219" y="536" fill="#252525">Linha 2 — Vermelha</text>
+        <circle cx="368" cy="531" r="7" fill="#E2683C"/>
+        <text x="382" y="536" fill="#252525">Linha 3 — Coral</text>
+        <circle cx="518" cy="531" r="7" fill="#F0B429"/>
+        <text x="532" y="536" fill="#252525">Linha 4 — Amarela</text>
+        <circle cx="668" cy="531" r="7" fill="#8E5BBE"/>
+        <text x="682" y="536" fill="#252525">Linha 5 — Lilás</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+# URLs amigáveis para a página única
+/servicos      /index.html   301
+/depoimentos   /index.html#provas      301
+/faq           /index.html#faq         301
+/contato       /index.html#contratar   301
