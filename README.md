@@ -128,15 +128,29 @@ Depois de qualquer alteração: `npm run build` e publique (commit + push).
 
 ## Publicação (Cloudflare Pages)
 
-1. Conecte o repositório em **Cloudflare Pages → Create project → Connect to Git**.
-2. Configuração do build:
-   - **Build command:** `node tools/build.mjs`
-   - **Build output directory:** `dist`
-   - **Root directory:** `/` (padrão)
-3. Branch de produção: `main`. Cada PR gera um **preview deployment** automático.
-4. Ao adicionar o domínio, o HTTPS é emitido automaticamente.
+**Produção:** https://catsitter.pages.dev/
+**Projeto:** `catsitter` (branch de produção: `main`)
+
+O deploy é feito por upload direto da pasta `dist/` (projeto Cloudflare Pages já criado):
+
+```bash
+npm run deploy    # build + wrangler pages deploy
+```
+
+Pré-requisito: estar autenticado no Cloudflare (`npx wrangler login`) — o token fica em
+`%APPDATA%\xdg.config\.wrangler\config\default.toml`.
+
+### Alternativa: deploy automático por push (Git)
+
+Se você conectar o repositório em **Cloudflare Pages → Create project → Connect to Git**, cada push em `main` gera um deploy
+automático — é a melhor opção para a atualização diária de conteúdo. Nesse caso:
+
+- **Build command:** `node tools/build.mjs`
+- **Build output directory:** `dist`
 
 Os arquivos `_headers` e `_redirects` da raiz são copiados para `dist/` pelo build e aplicados pela plataforma.
+
+> O `dist/` não é versionado (está no `.gitignore`): o build sempre o reconstrói.
 
 ---
 
